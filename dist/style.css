@@ -35,7 +35,8 @@ hr
   border-top-width: 1px;
 }
 
-abbr:where([title]) {
+abbr:where([title]) 
+{
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
 }
@@ -45,7 +46,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6 
+{
   font-size: inherit;
   font-weight: inherit;
 }
@@ -57,14 +59,16 @@ a
 }
 
 b,
-strong {
+strong 
+{
   font-weight: bolder;
 }
 
 code,
 kbd,
 samp,
-pre {
+pre 
+{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1em;
 }
@@ -75,7 +79,8 @@ small
 }
 
 sub,
-sup {
+sup 
+{
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -103,7 +108,8 @@ button,
 input,
 optgroup,
 select,
-textarea {
+textarea 
+{
   font-family: inherit;
   font-size: 100%;
   line-height: inherit;
@@ -113,14 +119,16 @@ textarea {
 }
 
 button,
-select {
+select 
+{
   text-transform: none;
 }
 
 button,
 [type='button'],
 [type='reset'],
-[type='submit'] {
+[type='submit'] 
+{
   -webkit-appearance: button;
   background-color: transparent;
   background-image: none;
@@ -142,20 +150,24 @@ progress
 }
 
 ::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
+::-webkit-outer-spin-button 
+{
   height: auto;
 }
 
-[type='search'] {
+[type='search'] 
+{
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
-::-webkit-search-decoration {
+::-webkit-search-decoration 
+{
   -webkit-appearance: none;
 }
 
-::-webkit-file-upload-button {
+::-webkit-file-upload-button 
+{
   -webkit-appearance: button;
   font: inherit;
 }
@@ -177,16 +189,19 @@ h6,
 hr,
 figure,
 p,
-pre {
+pre 
+{
   margin: 0;
 }
 
-fieldset {
+fieldset 
+{
   margin: 0;
   padding: 0;
 }
 
-legend {
+legend 
+{
   padding: 0;
 }
 
@@ -199,32 +214,38 @@ menu
   padding: 0;
 }
 
-textarea {
+textarea 
+{
   resize: vertical;
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder, textarea::-moz-placeholder 
+{
   opacity: 1;
   color: #9ca3af;
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+input:-ms-input-placeholder, textarea:-ms-input-placeholder
+{
   opacity: 1;
   color: #9ca3af;
 }
 
 input::placeholder,
-textarea::placeholder {
+textarea::placeholder
+{
   opacity: 1;
   color: #9ca3af;
 }
 
 button,
-[role="button"] {
+[role="button"] 
+{
   cursor: pointer;
 }
 
-:disabled {
+:disabled 
+{
   cursor: default;
 }
 
@@ -235,22 +256,26 @@ canvas,
 audio,
 iframe,
 embed,
-object {
+object
+{
   display: block;
   vertical-align: middle;
 }
 
 img,
-video {
+video
+{
   max-width: 100%;
   height: auto;
 }
 
-[hidden] {
+[hidden] 
+{
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after 
+{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -295,7 +320,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-base {
+.text-base 
+{
   font-size: 1rem;
   line-height: 1.5rem;
 }
