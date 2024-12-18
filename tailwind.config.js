@@ -1,6 +1,7 @@
 module.exports = {
     content: ['./**/*.html', './pages/**/*.{html, js}'],
-    theme: {
+    theme: 
+    {
         extend: {},
     },
     plugins: [],
